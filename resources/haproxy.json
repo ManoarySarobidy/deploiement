@@ -1,0 +1,34 @@
+{
+    "name": "tomcats",
+    "ip" : "*",
+    "port" : 90,
+    "bindTo" : "*",
+    "backend" : "tomcats_servers",
+    "conf" : "/etc/haproxy/haproxy.cfg",
+    "servers" : [
+        {
+            "ip" : "localhost",
+            "port": "8080",
+            "serverPort" : 21,
+            "username" : "sarobidy",
+            "password" : "",
+            "tomcat" : "/home/sarobidy/Desktop/andrana"
+        },
+        {
+            "ip" : "localhost",
+            "port": "8082",
+            "serverPort" : 21,
+            "username" : "sarobidy",
+            "password" : "",
+            "tomcat" : "/home/sarobidy/Desktop/andrana2"
+        },
+        {
+            "ip" : "localhost",
+            "port": "8083",
+            "serverPort" : 21,
+            "username" : "sarobidy",
+            "password" : "",
+            "tomcat" : "/home/sarobidy/Desktop/andrana2"
+        }
+    ]
+}

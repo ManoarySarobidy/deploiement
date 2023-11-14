@@ -1,0 +1,21 @@
+{
+    "name": "sarobidy",
+    "github": {
+       "username" : "manoary"
+    },
+    "haproxy" : {
+        "ip" : "127.0.0.1",
+        "port" : 30,
+        "username" : "sarobidy",
+        "password" : "MySoulM"
+    },
+    "servers" : [
+        {
+            "ip" : "127.0.0.1",
+            "port": 8080,
+            "username" : "sarobidy",
+            "password" : "MySoulM",
+            "tomcat" : "/home/sarobidy/Desktop/tomcat/webapps"
+        }
+    ]
+}

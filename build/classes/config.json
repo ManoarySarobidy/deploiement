@@ -1,0 +1,32 @@
+{
+    "name": "sarobidy",
+    "src_folder" : "/home/sarobidy/Desktop/github",
+    "buildFile" : "build.sh",
+    "github": {
+       "username" : "dylaneverest"
+    },
+    "haproxy" : {
+        "ip" : "127.0.0.1",
+        "port" : "30",
+        "username" : "sarobidy",
+        "password" : ""
+    },
+    "servers" : [
+        {
+            "ip" : "localhost",
+            "port": "8080",
+            "serverPort" : 21,
+            "username" : "sarobidy",
+            "password" : "",
+            "tomcat" : "/home/sarobidy/Desktop/andrana"
+        },
+        {
+            "ip" : "localhost",
+            "port": "8082",
+            "serverPort" : 21,
+            "username" : "sarobidy",
+            "password" : "",
+            "tomcat" : "/home/sarobidy/Desktop/andrana2"
+        }
+    ]
+}
